@@ -2,7 +2,7 @@
 
 **FPGA implementation of SM3 cryptographic hash algorithm (GB/T 32905)**
 
-> SM3 is the Chinese national standard for cryptographic hash, producing a 256-bit digest. This project implements the SM3 compression function and message expansion on FPGA.
+> SM3 is the Chinese national standard for cryptographic hash, producing a 256-bit digest.
 
 ## Target Board
 
@@ -36,3 +36,19 @@ SM3-FPGA/
 - [ ] Complete SM3 padding and message scheduling
 - [ ] AXI interface
 - [ ] Zynq PS-PL demo
+
+---
+
+中文说明
+
+## 目标平台
+
+| 开发板 | 芯片 |
+|--------|------|
+| RK-ZYNQ7100-F | XC7Z100-FFG900-2 |
+
+### 当前进度
+
+- [x] SM3 压缩函数
+- [x] SM3 消息扩展
+- [x] SM3 顶层模块
