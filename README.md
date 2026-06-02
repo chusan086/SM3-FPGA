@@ -14,13 +14,13 @@
 
 ```
 SM3-FPGA/
- +-- rtl/         # RTL implementation (SystemVerilog)
- +-- sim/         # Simulation testbenches
- +-- ip/          # Vivado IP configurations
- +-- constr/      # Timing and pin constraints
- +-- scripts/     # Project creation Tcl
- +-- LICENSE      # MIT
- +-- README.md
+├── rtl/         # RTL implementation (SystemVerilog)
+├── sim/         # Simulation testbenches
+├── ip/          # Vivado IP configurations
+├── constr/      # Timing and pin constraints
+├── scripts/     # Project creation Tcl
+├── LICENSE      # MIT License
+└── README.md
 ```
 
 ## Current Progress
